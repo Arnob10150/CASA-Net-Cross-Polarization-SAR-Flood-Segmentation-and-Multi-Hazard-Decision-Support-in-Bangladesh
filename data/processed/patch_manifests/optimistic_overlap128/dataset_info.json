@@ -1,0 +1,27 @@
+{
+  "patch_size": 256,
+  "stride": 128,
+  "split_type": "optimistic_random_patch_split_with_overlap",
+  "total_patches": 4260,
+  "train_count": 2981,
+  "val_count": 639,
+  "test_count": 640,
+  "bins": {
+    "high": 2002,
+    "dry": 1183,
+    "medium": 630,
+    "low": 250,
+    "very_low": 195
+  },
+  "sources": {
+    "vv": "f:\\MAPATHON\\sylhet_flood_2024\\data\\processed\\sar\\S1_VV_20240619.tif",
+    "vh": "f:\\MAPATHON\\sylhet_flood_2024\\data\\processed\\sar\\S1_VH_20240619.tif",
+    "mask": "f:\\MAPATHON\\sylhet_flood_2024\\data\\processed\\masks\\mask_unosat_20240619.tif",
+    "terrain": {
+      "slope": "f:\\MAPATHON\\sylhet_flood_2024\\data\\processed\\terrain\\slope_sylhet.tif",
+      "twi": "f:\\MAPATHON\\sylhet_flood_2024\\data\\processed\\terrain\\twi_sylhet.tif",
+      "jrc": "f:\\MAPATHON\\sylhet_flood_2024\\data\\processed\\terrain\\jrc_water_sylhet.tif",
+      "hand": "f:\\MAPATHON\\sylhet_flood_2024\\data\\processed\\terrain\\hand_sylhet.tif"
+    }
+  }
+}

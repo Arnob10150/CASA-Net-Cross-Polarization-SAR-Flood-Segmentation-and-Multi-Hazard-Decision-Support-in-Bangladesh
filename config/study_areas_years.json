@@ -1,0 +1,116 @@
+{
+  "years": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "regions": [
+    {
+      "id": "sylhet",
+      "name": "Sylhet",
+      "bbox": [
+        91.6,
+        24.5,
+        92.5,
+        25.2
+      ],
+      "stations": [
+        "Kanaighat",
+        "Sylhet",
+        "Sheola"
+      ]
+    },
+    {
+      "id": "sunamganj",
+      "name": "Sunamganj",
+      "bbox": [
+        90.9,
+        24.7,
+        91.7,
+        25.3
+      ],
+      "stations": [
+        "Sunamganj"
+      ]
+    },
+    {
+      "id": "kurigram",
+      "name": "Kurigram",
+      "bbox": [
+        89.4,
+        25.4,
+        89.9,
+        26.1
+      ],
+      "stations": [
+        "Chilmari"
+      ]
+    },
+    {
+      "id": "gaibandha",
+      "name": "Gaibandha",
+      "bbox": [
+        89.1,
+        25.0,
+        89.7,
+        25.6
+      ],
+      "stations": [
+        "Fulchhari"
+      ]
+    },
+    {
+      "id": "jamalpur",
+      "name": "Jamalpur",
+      "bbox": [
+        89.7,
+        24.6,
+        90.2,
+        25.3
+      ],
+      "stations": [
+        "Bahadurabad"
+      ]
+    },
+    {
+      "id": "sirajganj",
+      "name": "Sirajganj",
+      "bbox": [
+        89.4,
+        24.1,
+        89.9,
+        24.9
+      ],
+      "stations": [
+        "Sirajganj"
+      ]
+    }
+  ],
+  "window_templates": {
+    "pre_flood": [
+      "05-10",
+      "05-25"
+    ],
+    "peak_flood": [
+      "06-15",
+      "08-31"
+    ],
+    "post_flood": [
+      "09-10",
+      "09-25"
+    ]
+  },
+  "label_sources": [
+    "UNOSAT / HDX",
+    "Copernicus EMS Rapid Mapping",
+    "DFO Flood Observatory",
+    "UNDP GeoHub",
+    "Manual local labels placed under data/raw/unosat or data/raw/cems"
+  ]
+}

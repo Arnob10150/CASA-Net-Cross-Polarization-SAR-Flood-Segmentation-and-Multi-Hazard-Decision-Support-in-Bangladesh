@@ -1,0 +1,107 @@
+filename,path,size_bytes,modified,category,source_notebook,description
+ablation_metrics_bar.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\ablation_metrics_bar.png,89331.0,1774002397.833119,,,
+ablation_training_curves.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\ablation_training_curves.png,91732.0,1774002397.6890817,,,
+bangladesh_external_landslide_catalog_by_year.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\bangladesh_external_landslide_catalog_by_year.png,68769.0,1774172689.174991,dataset/landslide_external,03_mask_preparation / external validation sync,Temporal distribution of Bangladesh landslide events from the external NASA catalog.
+bangladesh_external_landslide_catalog_map.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\bangladesh_external_landslide_catalog_map.png,104191.0,1774172688.9569688,dataset/landslide_external,03_mask_preparation / external validation sync,Bangladesh landslide event points from NASA Global Landslide Catalog used as external landslide reference coverage.
+bangladesh_preferred_hazard_datasets.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\bangladesh_preferred_hazard_datasets.png,66518.0,1774121393.9349153,dataset/multi_hazard,01_data_download / 03_mask_preparation,"Bangladesh-preferred dataset choices for flood, erosion, and landslide, with current local usage status."
+benchmark_model_comparison.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\benchmark_model_comparison.png,100332.0,1774022452.545046,,,
+benchmark_model_comparison_best.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\benchmark_model_comparison_best.png,100146.0,1774029023.47177,,,
+benchmark_model_comparison_best_precision_tuned.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\benchmark_model_comparison_best_precision_tuned.png,101180.0,1774094390.6227531,,,
+benchmark_model_comparison_best_refined.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\benchmark_model_comparison_best_refined.png,100177.0,1774094323.2332215,,,
+benchmark_model_comparison_casanet_only_optimistic.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\benchmark_model_comparison_casanet_only_optimistic.png,72631.0,1774086508.754789,,,
+benchmark_model_comparison_casanet_only_optimistic_tuned.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\benchmark_model_comparison_casanet_only_optimistic_tuned.png,72657.0,1774089853.9651856,,,
+benchmark_model_comparison_final.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\benchmark_model_comparison_final.png,98638.0,1774090048.6048348,,,
+benchmark_model_comparison_optimistic.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\benchmark_model_comparison_optimistic.png,98645.0,1774086907.1520967,,,
+benchmark_model_comparison_optimistic_tuned.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\benchmark_model_comparison_optimistic_tuned.png,98638.0,1774090048.6048348,,,
+benchmark_model_comparison_v2.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\benchmark_model_comparison_v2.png,102767.0,1774026804.3286822,,,
+benchmark_model_comparison_v2_ft.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\benchmark_model_comparison_v2_ft.png,72631.0,1774027627.8942702,,,
+benchmark_model_comparison_v3.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\benchmark_model_comparison_v3.png,72631.0,1774028973.038325,,,
+benchmark_models_matrix.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\benchmark_models_matrix.png,103132.0,1774009711.319968,,,
+benchmark_radar_chart.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\benchmark_radar_chart.png,86457.0,1774002397.502671,,,
+benchmark_ranked_leaderboard.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\benchmark_ranked_leaderboard.png,61614.0,1774022452.689076,,,
+benchmark_ranked_leaderboard_best.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\benchmark_ranked_leaderboard_best.png,64366.0,1774029023.609817,,,
+benchmark_ranked_leaderboard_casanet_only_optimistic.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\benchmark_ranked_leaderboard_casanet_only_optimistic.png,48107.0,1774086508.871596,,,
+benchmark_ranked_leaderboard_casanet_only_optimistic_tuned.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\benchmark_ranked_leaderboard_casanet_only_optimistic_tuned.png,49765.0,1774089854.0822506,,,
+benchmark_ranked_leaderboard_final.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\benchmark_ranked_leaderboard_final.png,58811.0,1774090048.7258186,,,
+benchmark_ranked_leaderboard_optimistic.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\benchmark_ranked_leaderboard_optimistic.png,57228.0,1774086907.279096,,,
+benchmark_ranked_leaderboard_optimistic_tuned.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\benchmark_ranked_leaderboard_optimistic_tuned.png,58811.0,1774090048.7258186,,,
+benchmark_ranked_leaderboard_v2.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\benchmark_ranked_leaderboard_v2.png,63642.0,1774026804.466728,,,
+benchmark_ranked_leaderboard_v2_ft.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\benchmark_ranked_leaderboard_v2_ft.png,48141.0,1774027628.0044093,,,
+benchmark_ranked_leaderboard_v3.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\benchmark_ranked_leaderboard_v3.png,48147.0,1774028973.148466,,,
+casa_net_loss_score_curves.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\casa_net_loss_score_curves.png,374739.0,1774096147.3256304,,,
+confusion_matrix_casa_net.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\confusion_matrix_casa_net.png,53934.0,1774022452.9537308,,,
+confusion_matrix_casa_net_final.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\confusion_matrix_casa_net_final.png,60955.0,1774089856.430721,,,
+confusion_matrix_casa_net_optimistic.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\confusion_matrix_casa_net_optimistic.png,61454.0,1774086511.2112534,,,
+confusion_matrix_casa_net_optimistic_tuned.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\confusion_matrix_casa_net_optimistic_tuned.png,60955.0,1774089856.430721,,,
+confusion_matrix_casa_net_strict_vs_final.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\confusion_matrix_casa_net_strict_vs_final.png,113029.0,1774096224.0422823,,,
+confusion_matrix_casa_net_v2.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\confusion_matrix_casa_net_v2.png,59794.0,1774026805.0763185,,,
+confusion_matrix_casa_net_v2_ft.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\confusion_matrix_casa_net_v2_ft.png,61368.0,1774027628.6134665,,,
+confusion_matrix_casa_net_v3.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\confusion_matrix_casa_net_v3.png,59880.0,1774028973.7614672,,,
+cumulative_scene_growth.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\cumulative_scene_growth.png,271377.0,1774018014.410402,,,
+data_source_matrix.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\data_source_matrix.png,133280.0,1774018013.178392,,,
+dataset_availability_summary.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\dataset_availability_summary.png,133048.0,1774018013.480914,,,
+dataset_description_overview.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\dataset_description_overview.png,190027.0,1774018012.8389964,,,
+erosion_benchmark_model_comparison.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\erosion_benchmark_model_comparison.png,86935.0,1774168577.7930748,evaluation/erosion,05_casa_net_training / multi-hazard benchmark,Erosion six-model comparison chart with CASA-Net included.
+erosion_benchmark_ranked_leaderboard.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\erosion_benchmark_ranked_leaderboard.png,77087.0,1774168577.9805872,evaluation/erosion,05_casa_net_training / multi-hazard benchmark,Erosion ranked leaderboard by IoU.
+erosion_branch_improvement_summary.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\erosion_branch_improvement_summary.png,100950.0,1774190757.1609707,evaluation/erosion,05_casa_net_training / erosion branch follow-up,"Comparison of erosion branch metrics across the shared split, optimistic overlap fine-tune, and fused active bank zone evaluation."
+erosion_confusion_matrix_benchmark.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\erosion_confusion_matrix_benchmark.png,52953.0,1774168578.8532374,evaluation/erosion,05_casa_net_training / multi-hazard benchmark,Erosion CASA-Net confusion matrix on the shared multi-hazard test split.
+erosion_confusion_matrix_seed.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\erosion_confusion_matrix_seed.png,51912.0,1774115723.3775234,evaluation,05_casa_net_training,Confusion matrix for the erosion branch trained on bank-corridor seed supervision.
+erosion_fused_active_bank_zone_preview.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\erosion_fused_active_bank_zone_preview.png,371301.0,1774186398.998601,hazard/erosion_reference,03_mask_preparation / erosion validation sync,"Bangladesh erosion reference build showing corridor seed, independent optical reference, and fused active bank zone target."
+erosion_fused_active_bank_zone_threshold_tradeoff.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\erosion_fused_active_bank_zone_threshold_tradeoff.png,171706.0,1774190757.3529904,evaluation/erosion,05_casa_net_training / erosion branch follow-up,"Threshold sweep for the erosion fused active bank zone evaluation showing precision, recall, F1, and IoU trade-offs."
+erosion_loss_accuracy_curve_benchmark.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\erosion_loss_accuracy_curve_benchmark.png,156598.0,1774168585.623214,evaluation/erosion,05_casa_net_training / multi-hazard benchmark,Erosion CASA-Net training loss and validation IoU curve.
+erosion_pr_roc_seed.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\erosion_pr_roc_seed.png,158354.0,1774115728.8116124,evaluation,05_casa_net_training,Precision-recall and ROC curves for the erosion branch.
+erosion_precision_recall_roc_benchmark.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\erosion_precision_recall_roc_benchmark.png,159488.0,1774168584.612074,evaluation/erosion,05_casa_net_training / multi-hazard benchmark,Erosion CASA-Net precision-recall and ROC curves.
+evaluation_diagrams_manifest.csv,f:\MAPATHON\sylhet_flood_2024\outputs\figures\evaluation_diagrams_manifest.csv,11929.0,1774105297.4625874,,,
+expanded_label_inventory.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\expanded_label_inventory.png,69550.0,1774090240.5954182,,,
+label_resource_inventory.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\label_resource_inventory.png,154564.0,1774010995.3472707,,,
+landslide_benchmark_model_comparison.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\landslide_benchmark_model_comparison.png,88624.0,1774166906.474006,evaluation/landslide,05_casa_net_training / multi-hazard benchmark,Landslide six-model comparison chart with CASA-Net included.
+landslide_benchmark_ranked_leaderboard.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\landslide_benchmark_ranked_leaderboard.png,77775.0,1774166906.6570385,evaluation/landslide,05_casa_net_training / multi-hazard benchmark,Landslide ranked leaderboard by IoU.
+landslide_confusion_matrix_benchmark.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\landslide_confusion_matrix_benchmark.png,52983.0,1774166907.5201647,evaluation/landslide,05_casa_net_training / multi-hazard benchmark,Landslide CASA-Net confusion matrix on the shared multi-hazard test split.
+landslide_confusion_matrix_seed.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\landslide_confusion_matrix_seed.png,51650.0,1774116596.2147987,evaluation,05_casa_net_training,Confusion matrix for the landslide branch trained on terrain seed supervision.
+landslide_loss_accuracy_curve_benchmark.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\landslide_loss_accuracy_curve_benchmark.png,159746.0,1774166914.4931006,evaluation/landslide,05_casa_net_training / multi-hazard benchmark,Landslide CASA-Net training loss and validation IoU curve.
+landslide_pr_roc_seed.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\landslide_pr_roc_seed.png,141548.0,1774116602.1075163,evaluation,05_casa_net_training,Precision-recall and ROC curves for the landslide branch.
+landslide_precision_recall_roc_benchmark.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\landslide_precision_recall_roc_benchmark.png,155041.0,1774166913.507002,evaluation/landslide,05_casa_net_training / multi-hazard benchmark,Landslide CASA-Net precision-recall and ROC curves.
+local_label_inventory.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\local_label_inventory.png,103866.0,1774018013.2935193,,,
+metrics_overview_final.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\metrics_overview_final.png,252032.0,1774096146.317611,,,
+metrics_overview_strict_precision_tuned.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\metrics_overview_strict_precision_tuned.png,237900.0,1774096145.8635592,,,
+model_comparison_heatmap_final.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\model_comparison_heatmap_final.png,212747.0,1774096146.7756667,,,
+model_comparison_heatmap_strict_precision_tuned.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\model_comparison_heatmap_strict_precision_tuned.png,219397.0,1774096146.5436616,,,
+multi_hazard_branch_metrics.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\multi_hazard_branch_metrics.png,92954.0,1774168723.3846805,evaluation/multi_hazard,08_threshold_and_report / report sync,"Combined best saved branch metrics for flood, landslide, and erosion."
+multi_hazard_label_coverage.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\multi_hazard_label_coverage.png,108970.0,1774109125.596655,dataset/evaluation,03_mask_preparation / 04_patch_generation,"Positive patch and pixel coverage for flood, erosion, and landslide supervision assets."
+multi_hazard_maturity_scorecard.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\multi_hazard_maturity_scorecard.png,108939.0,1774168723.606706,evaluation/multi_hazard,08_threshold_and_report / report sync,Scorecard showing benchmark-complete artifact coverage across all hazards.
+multi_hazard_pipeline_framework.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\multi_hazard_pipeline_framework.png,223787.0,1774105297.267567,,,
+multi_hazard_risk_fusion.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\multi_hazard_risk_fusion.png,179861.0,1774105593.768465,,,
+multi_hazard_seed_mask_preview.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\multi_hazard_seed_mask_preview.png,2462200.0,1774109172.3945222,dataset/label_preview,03_mask_preparation,Validated flood mask and initial erosion/landslide seed masks aligned to the Sylhet Sentinel-1 grid.
+multi_region_quicklooks_2025.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\multi_region_quicklooks_2025.png,8048229.0,1774018016.588416,,,
+precision_recall_curve_casa_net_strict_vs_final.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\precision_recall_curve_casa_net_strict_vs_final.png,154744.0,1774096206.8065724,,,
+precision_recall_roc_casa_net.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\precision_recall_roc_casa_net.png,147283.0,1774022455.169582,,,
+precision_recall_roc_casa_net_final.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\precision_recall_roc_casa_net_final.png,152751.0,1774089884.9941554,,,
+precision_recall_roc_casa_net_optimistic.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\precision_recall_roc_casa_net_optimistic.png,143458.0,1774086541.5975568,,,
+precision_recall_roc_casa_net_optimistic_tuned.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\precision_recall_roc_casa_net_optimistic_tuned.png,152751.0,1774089884.9941554,,,
+precision_recall_roc_casa_net_v2.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\precision_recall_roc_casa_net_v2.png,157553.0,1774026811.3756804,,,
+precision_recall_roc_casa_net_v2_ft.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\precision_recall_roc_casa_net_v2_ft.png,158705.0,1774027635.1084318,,,
+precision_recall_roc_casa_net_v3.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\precision_recall_roc_casa_net_v3.png,158116.0,1774028980.4531903,,,
+real_rtc_vv_vh_sylhet_june2024.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\real_rtc_vv_vh_sylhet_june2024.png,5239830.0,1774017933.5769458,,,
+real_unosat_overlay_sylhet_june2024.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\real_unosat_overlay_sylhet_june2024.png,5644601.0,1774017973.6182456,,,
+region_scene_summary_table.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\region_scene_summary_table.png,104899.0,1774018014.7513056,,,
+regional_sentinel1_quicklook_triptych.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\regional_sentinel1_quicklook_triptych.png,4302883.0,1774096226.709227,,,
+roc_auc_casa_net_strict_vs_final.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\roc_auc_casa_net_strict_vs_final.png,176118.0,1774096181.139971,,,
+sample_sentinel1_quicklook.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\sample_sentinel1_quicklook.png,641066.0,1774009711.13851,,,
+sample_sentinel1_quicklook_2025.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\sample_sentinel1_quicklook_2025.png,741822.0,1774018011.3782108,,,
+scene_count_2025_only.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\scene_count_2025_only.png,120665.0,1774018012.6854892,,,
+scene_count_by_region.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\scene_count_by_region.png,127780.0,1774018012.0326009,,,
+scene_count_by_year.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\scene_count_by_year.png,81718.0,1774018011.890057,,,
+scene_count_heatmap.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\scene_count_heatmap.png,173293.0,1774018011.7460265,,,
+scene_count_small_multiples.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\scene_count_small_multiples.png,184123.0,1774018014.0087044,,,
+scene_count_trends.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\scene_count_trends.png,291368.0,1774018012.3490758,,,
+scene_share_2025_pie.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\scene_share_2025_pie.png,148573.0,1774018014.1881251,,,
+sentinel1_quicklook_kurigram_2025.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\sentinel1_quicklook_kurigram_2025.png,2089346.0,1774096225.3407516,,,
+sentinel1_quicklook_sirajganj_2025.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\sentinel1_quicklook_sirajganj_2025.png,2507931.0,1774096225.7859137,,,
+sentinel1_quicklook_sunamganj_2025.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\sentinel1_quicklook_sunamganj_2025.png,2132753.0,1774096224.8886993,,,
+station_region_matrix.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\station_region_matrix.png,117127.0,1774018014.6157386,,,
+study_area_bboxes.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\study_area_bboxes.png,383312.0,1774096145.0178442,,,
+study_area_bboxes_fixed.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\study_area_bboxes_fixed.png,444905.0,1774096145.4071646,,,
+study_catalog_timeline.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\study_catalog_timeline.png,73432.0,1774018012.5444503,,,
+threshold_tradeoff_casa_net_strict.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\threshold_tradeoff_casa_net_strict.png,185792.0,1774096224.4054148,,,
+uncertainty_sample_patches.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\uncertainty_sample_patches.png,92261.0,1774002398.2338252,,,
+unosat_multiyear_flood_extent_examples.png,f:\MAPATHON\sylhet_flood_2024\outputs\figures\unosat_multiyear_flood_extent_examples.png,2726923.0,1774096389.0069094,,,

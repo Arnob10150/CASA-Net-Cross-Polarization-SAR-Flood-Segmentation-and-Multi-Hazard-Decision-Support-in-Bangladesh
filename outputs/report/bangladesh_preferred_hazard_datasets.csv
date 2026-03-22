@@ -1,0 +1,4 @@
+hazard,preferred_dataset,geography,current_usage,source,status
+flood,UNOSAT Sylhet June 19-22 2024 flood extent,"Sylhet, Bangladesh",used directly for validated flood training/evaluation,HDX / UNOSAT,on_disk
+erosion,Bangladesh Sentinel-1 Jamuna riverbank erosion workflow and reference outputs,Bangladesh (Jamuna focus),preferred reference; local training currently uses HydroRIVERS corridor seed in Bangladesh AOIs,NHESS 2023 + Zenodo code assets,reference_selected
+landslide,"Landslide Inventory (2001-2017) of Chittagong Hilly Areas, Bangladesh","Chittagong Hilly Areas, Bangladesh",preferred reference; local training currently uses Bangladesh-preferred terrain seed supervision,MDPI Data 2019,reference_selected

@@ -1,0 +1,140 @@
+{
+  "project_mode": "multi_hazard",
+  "validated_benchmark_branch": "flood",
+  "notes": [
+    "Flood branch has the fully validated CASA-Net benchmark results.",
+    "Riverbank erosion now includes HydroRIVERS-derived bank-corridor seed labels and an aligned Sylhet seed mask.",
+    "Landslide now includes terrain-derived seed polygons and an aligned Sylhet seed mask based on slope, HAND, and TWI.",
+    "Combined risk layers are built from hazard probabilities, exposure, and vulnerability weights."
+  ],
+  "hazards": [
+    {
+      "id": "flood",
+      "name": "Flood Inundation",
+      "task": "binary_segmentation",
+      "label_mode": "polygon_to_raster",
+      "priority": 1,
+      "model_head": "segmentation",
+      "hazard_weight": 1.0,
+      "inputs": [
+        "sentinel1_vv",
+        "sentinel1_vh",
+        "slope",
+        "twi",
+        "hand",
+        "jrc_permanent_water",
+        "ffwc_gauges"
+      ],
+      "source_urls": [
+        "https://dataspace.copernicus.eu/",
+        "https://data.humdata.org/",
+        "https://ffwc.bwdb.gov.bd/data_load/"
+      ],
+      "env_vars": [
+        "UNOSAT_DIRECT_URL",
+        "FFWC_API_URL"
+      ],
+      "outputs": [
+        "flood_probability",
+        "flood_binary",
+        "flood_uncertainty"
+      ],
+      "current_supervision": "validated_unosat_mask"
+    },
+    {
+      "id": "erosion",
+      "name": "Riverbank Erosion",
+      "task": "binary_segmentation",
+      "label_mode": "corridor_seed_to_raster",
+      "priority": 2,
+      "model_head": "segmentation",
+      "hazard_weight": 0.9,
+      "inputs": [
+        "sentinel1_vv",
+        "sentinel1_vh",
+        "hydrorivers",
+        "jrc_yearly_history",
+        "distance_to_river",
+        "bankfull_zone"
+      ],
+      "source_urls": [
+        "https://www.hydrosheds.org/products",
+        "https://developers.google.com/earth-engine/datasets/catalog/JRC_GSW1_4_YearlyHistory",
+        "https://dataspace.copernicus.eu/",
+        "https://nhess.copernicus.org/articles/23/751/2023/",
+        "https://doi.org/10.5281/zenodo.7253121",
+        "https://doi.org/10.5281/zenodo.7252970"
+      ],
+      "env_vars": [
+        "HYDRORIVERS_URL",
+        "JRC_YEARLY_HISTORY_URL",
+        "EROSION_LABELS_URL"
+      ],
+      "outputs": [
+        "erosion_probability",
+        "erosion_binary",
+        "erosion_uncertainty"
+      ],
+      "current_supervision": "hydrorivers_bank_corridor_seed",
+      "preferred_reference_dataset": "Assessing riverbank erosion in Bangladesh using time series of Sentinel-1 radar imagery in the Google Earth Engine (NHESS 2023)"
+    },
+    {
+      "id": "landslide",
+      "name": "Rainfall-Triggered Landslide",
+      "task": "binary_segmentation",
+      "label_mode": "terrain_seed_to_raster",
+      "priority": 3,
+      "model_head": "segmentation",
+      "hazard_weight": 0.8,
+      "inputs": [
+        "slope",
+        "curvature",
+        "roughness",
+        "chirps_rainfall",
+        "gpm_imerg",
+        "coolr_landslides",
+        "landcover"
+      ],
+      "source_urls": [
+        "https://gpm.nasa.gov/applications/landslides/coolr",
+        "https://catalog.data.gov/dataset/global-landslide-catalog-export",
+        "https://www.chc.ucsb.edu/data/chirps",
+        "https://www.mdpi.com/2306-5729/5/1/4",
+        "https://ideas.repec.org/a/gam/jdataj/v5y2019i1p4-d301847.html"
+      ],
+      "env_vars": [
+        "NASA_COOLR_URL",
+        "NASA_GLC_URL",
+        "CHIRPS_DAILY_URL",
+        "GPM_IMERG_URL",
+        "LANDSLIDE_LABELS_URL"
+      ],
+      "outputs": [
+        "landslide_probability",
+        "landslide_binary",
+        "landslide_uncertainty"
+      ],
+      "current_supervision": "terrain_seed_mask",
+      "preferred_reference_dataset": "Landslide Inventory (2001-2017) of Chittagong Hilly Areas, Bangladesh"
+    }
+  ],
+  "combined_risk": {
+    "formula": "combined_risk = weighted_hazard_probability * exposure * vulnerability",
+    "default_hazard_weights": {
+      "flood": 1.0,
+      "erosion": 0.9,
+      "landslide": 0.8
+    },
+    "default_exposure_layers": [
+      "population",
+      "schools",
+      "health",
+      "shelters"
+    ],
+    "default_vulnerability_fields": [
+      "children_exposed",
+      "critical_facilities",
+      "uncertainty_penalty"
+    ]
+  }
+}

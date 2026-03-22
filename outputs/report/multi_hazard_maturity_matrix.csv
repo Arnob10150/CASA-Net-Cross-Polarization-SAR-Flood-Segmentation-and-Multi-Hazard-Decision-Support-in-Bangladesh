@@ -1,0 +1,4 @@
+hazard,bangladesh_dataset,trained_checkpoint,threshold_sweep,six_model_benchmark,confusion_matrix,pr_roc_figures,loss_curve,external_validation,benchmark_csv
+flood,yes,yes,yes,yes,yes,yes,yes,yes,f:\MAPATHON\sylhet_flood_2024\outputs\report\benchmark_results_best_recall_tuned.csv
+landslide,yes,yes,yes,yes,yes,yes,yes,yes_event_catalog,f:\MAPATHON\sylhet_flood_2024\outputs\report\benchmark_results_landslide_secondary.csv
+erosion,yes,yes,yes,yes,yes,yes,yes,yes_fused_optical_reference,f:\MAPATHON\sylhet_flood_2024\outputs\report\test_metrics_erosion_fused_active_bank_zone_v1_eval_only.csv

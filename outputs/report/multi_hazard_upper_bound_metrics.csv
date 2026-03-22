@@ -1,0 +1,4 @@
+hazard,regime,Accuracy,Precision,Recall,F1,IoU,source_csv
+flood,optimistic_overlap,0.9251631736755372,0.7919651631110614,0.8810977239762413,0.8341571713427373,0.7154971071902221,f:\MAPATHON\sylhet_flood_2024\outputs\report\benchmark_results_final.csv
+landslide,secondary_shared_split,0.957571,0.676615,0.775818,0.722829,0.565961,f:\MAPATHON\sylhet_flood_2024\outputs\report\benchmark_results_landslide_secondary.csv
+erosion,optimistic_overlap128_fused_active_bank_zone,0.9605318546295166,0.491241364581023,0.4403095058116704,0.4643831042350715,0.3024081758385127,f:\MAPATHON\sylhet_flood_2024\outputs\report\test_metrics_erosion_fused_active_bank_zone_v1_eval_only.csv

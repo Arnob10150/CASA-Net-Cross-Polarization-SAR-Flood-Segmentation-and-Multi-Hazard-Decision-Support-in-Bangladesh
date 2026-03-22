@@ -1,0 +1,16 @@
+{
+  "task": "erosion_fused_active_bank_zone_eval_only",
+  "target_mask": "f:\\MAPATHON\\sylhet_flood_2024\\data\\processed\\masks_multihazard\\erosion\\erosion_fused_active_bank_zone_sylhet_v1.tif",
+  "checkpoint": "f:\\MAPATHON\\sylhet_flood_2024\\models\\erosion_optimistic_casanet_secondary_benchmark_ft.pth",
+  "metrics_csv": "f:\\MAPATHON\\sylhet_flood_2024\\outputs\\report\\test_metrics_erosion_fused_active_bank_zone_v1_eval_only.csv",
+  "threshold_sweep_csv": "f:\\MAPATHON\\sylhet_flood_2024\\outputs\\report\\erosion_fused_active_bank_zone_v1_threshold_sweep_eval_only.csv",
+  "threshold": 0.8500000000000003,
+  "Accuracy": 0.9605318546295166,
+  "Precision": 0.491241364581023,
+  "Recall": 0.4403095058116704,
+  "F1": 0.4643831042350715,
+  "IoU": 0.3024081758385127,
+  "Dice": 0.4643831042350715,
+  "ROC_AUC": 0.9020746333724444,
+  "AveragePrecision": 0.4223572781095562
+}

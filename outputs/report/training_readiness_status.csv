@@ -1,0 +1,8 @@
+component,status,detail
+Flood benchmark,measured and trained,prepared Sylhet 2024 SAR + UNOSAT labels on disk
+Bangladesh multi-year flood label archive,unified at label level,61 flood/water shapefiles scanned across 5 event folders
+Bangladesh multi-region SAR catalog,tracked at scene-manifest level,scene_coverage_manifest.csv covers 2017-2025 study regions
+National raster-harmonized training set,partial,only the Sylhet flood slice is fully harmonized into local SAR+terrain+patch training assets
+Erosion branch,trained with Bangladesh-focused supervision,HydroRIVERS corridor seed + Sentinel-1 context
+Landslide branch,trained with Bangladesh-preferred supervision,terrain seed informed by Chittagong inventory literature
+Strict vs optimistic claims,separated,"abstract, deck, and technical note now distinguish conservative and upper-bound regimes"
