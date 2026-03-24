@@ -55,7 +55,7 @@ casa_net/
 │   ├── study_areas_years.json          # 6 regions × 9 years, bounding boxes, gauge stations
 │   └── hazard_catalog.json            # Per-hazard task, inputs, label mode, source URLs
 │
-├── data/                               # (EXCLUDED — see notes below)
+├── data/                               # (EXCLUDED due to large files — see notes below)
 │   ├── raw/
 │   │   ├── unosat/                     # Sylhet June 2024 flood extent shapefile components
 │   │   ├── erosion/                    # HydroRIVERS corridor supervision labels
