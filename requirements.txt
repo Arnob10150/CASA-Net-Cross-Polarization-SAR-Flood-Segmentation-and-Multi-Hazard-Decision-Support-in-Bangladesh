@@ -5,8 +5,10 @@ geopandas==1.0.1
 jupyter==1.1.1
 matplotlib==3.9.2
 nbformat==5.10.4
+netCDF4==1.7.1
 numpy==1.26.4
 pandas==2.2.3
+Pillow==12.1.1
 pyproj==3.7.0
 pysheds==0.4
 python-dotenv==1.0.1
@@ -15,10 +17,12 @@ rasterstats==0.20.0
 requests==2.32.3
 richdem==0.3.4
 scikit-learn==1.5.2
+scipy==1.13.1
 seaborn==0.13.2
 segmentation-models-pytorch==0.3.4
 sentinelsat==1.2.1
 shapely==2.0.6
+streamlit==1.55.0
 torch==2.5.1
 torchvision==0.20.1
 tqdm==4.66.5

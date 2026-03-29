@@ -1,0 +1,20 @@
+[theme]
+primaryColor = "#1E64DC"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#262730"
+textColor = "#FAFAFA"
+font = "sans serif"
+
+[server]
+# Maximum upload file size in MB
+maxUploadSize = 200
+# Enable CORS for cloud deployment
+enableCORS = false
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
+
+[runner]
+# Suppress missing ScriptRunContext warnings from background threads
+magicEnabled = true
