@@ -41,7 +41,7 @@ cp .env.example .env
 # edit .env as needed
 
 # Run the app
-streamlit run app.py
+streamlit run streamlit_app.py
 ```
 
 Open your browser at **http://localhost:8501**.
@@ -58,7 +58,7 @@ repositories.
 1. Push this repository to **GitHub** (public or private).
 2. Go to <https://share.streamlit.io> and sign in with GitHub.
 3. Click **"New app"** → select the repository, branch, and set:
-   - **Main file path**: `app.py`
+   - **Main file path**: `streamlit_app.py`
 4. Under **Advanced settings → Secrets**, add any required environment variables
    (see [Section 6](#6-environment-variables-reference)).
 5. Click **Deploy**.

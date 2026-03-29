@@ -22,7 +22,7 @@ seaborn==0.13.2
 segmentation-models-pytorch==0.3.4
 sentinelsat==1.2.1
 shapely==2.0.6
-streamlit==1.40.2
+streamlit==1.55.0
 torch==2.5.1
 torchvision==0.20.1
 tqdm==4.66.5
